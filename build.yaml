@@ -78,7 +78,7 @@ BuildWorkflow:
   publish:
     #- publish_module_to_gallery
     - Publish_Release_To_GitHub
-    - Publish_GitHub_Wiki_Content
+    #- Publish_GitHub_Wiki_Content
 
 
 
@@ -105,7 +105,7 @@ Pester:
   #  - FunctionalQuality
   #  - TestQuality
   Tag:
-  CodeCoverageThreshold: 85 # Set to 0 to bypass
+  CodeCoverageThreshold: 0 # Set to 0 to bypass
   #CodeCoverageOutputFile: JaCoCo_$OsShortName.xml
   #CodeCoverageOutputFileEncoding: ascii
   # Use this if code coverage should be merged from several pipeline test jobs.

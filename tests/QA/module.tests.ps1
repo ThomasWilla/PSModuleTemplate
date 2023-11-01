@@ -1,3 +1,4 @@
+
 BeforeDiscovery {
     $projectPath = "$($PSScriptRoot)\..\.." | Convert-Path
 
@@ -213,4 +214,3 @@ Describe 'Help for module' -Tags 'helpQuality' {
         }
     }
 }
-
