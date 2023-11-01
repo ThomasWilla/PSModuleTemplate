@@ -1,3 +1,5 @@
+
+
 trigger:
   branches:
     include:
@@ -321,4 +323,3 @@ stages:
               GitHubToken: $(GitHubToken)
               ReleaseBranch: $(defaultBranch)
               MainGitBranch: $(defaultBranch)
-
