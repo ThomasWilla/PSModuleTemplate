@@ -30,7 +30,7 @@
 
     #AllowOldPowerShellGetModule = $true
     #MinimumPSDependVersion = '0.3.0'
-    AllowPrerelease = $false
+    AllowPrerelease = $true
     WithYAML        = $true # Will also bootstrap PowerShell-Yaml to read other config files
 
     # Enable ModuleFast to resolve dependencies. Requires PowerShell 7.2 or higher.
@@ -46,4 +46,3 @@
     #UsePowerShellGetCompatibilityModule = $true
     #UsePowerShellGetCompatibilityModuleVersion = '3.0.22-beta22'
 }
-
